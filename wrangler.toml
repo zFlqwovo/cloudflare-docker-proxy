@@ -16,7 +16,7 @@ CUSTOM_DOMAIN = "2719233.xyz"
 
 [env.production]
 name = "cloudflare-docker-proxy"
-# routes = [
+routes = [
   { pattern = "docker.2719233.xyz", custom_domain = true },
   { pattern = "quay.2719233.xyz", custom_domain = true },
   { pattern = "gcr.2719233.xyz", custom_domain = true },
